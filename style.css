@@ -267,11 +267,19 @@ img {
   margin-bottom: 1rem;
 }
 
+.page-title--large {
+  font-size: 3rem;
+}
+
 .page-desc {
   font-size: 1.05rem;
   color: var(--text-muted);
   line-height: 1.65;
   max-width: 650px;
+}
+
+.page-desc--centered {
+  margin: 0 auto;
 }
 
 /* Buttons */
@@ -321,6 +329,11 @@ img {
   background: linear-gradient(180deg, #F4EFE6 0%, #FAF6EE 60%, #FAF8F5 100%);
   padding: 4rem 0 5rem;
   border-bottom: 1px solid var(--border);
+}
+
+.hero-section--centered {
+  padding: 4rem 0;
+  text-align: center;
 }
 
 .hero-grid {
